@@ -1,0 +1,689 @@
+html {
+    margin: 0 -10px -10px -10px; 
+    padding: 0;
+    font-family: 'Abel';
+}
+
+header {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header>nav{
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+}
+
+.lined-right::after{
+    content: "|";
+}
+
+.shoecase{
+    background: linear-gradient(to right,rgb(6, 56, 80) 20%, rgb(30, 172, 153));
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;      
+}
+
+.iphone{
+    height: 400px;
+}
+
+.buynow{
+    color:rgb(173, 179, 184);
+}
+
+.buynowbutton{
+ display: flex;
+ flex-flow: row;
+}
+
+.buynowleft{
+    background-color: #5d9c8d;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;      
+}
+
+.buynowright{
+    background-color: #87d2c2;
+    height: 55px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    font-size: 25px;
+}
+
+.buynowright:hover{
+    background-color:rgb(30, 172, 153);
+}
+
+.content{
+    margin: 0 auto;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#aboutmin{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#Lorem{
+    margin-bottom: 40px;
+}
+
+.about{
+    height: 600px;
+    background-color:azure;
+}
+
+.about h1, .about h4{
+    text-align: center;
+}
+
+.img_list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    height: 200px;
+}  
+
+.custom_menu div div {
+    width: calc(100vw / 6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom_menu div img{
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.custom_menu div div:nth-child(1) {
+    background:#39646b;
+}
+
+.custom_menu div div:nth-child(2) {
+    background: #467a83;
+}
+
+.custom_menu div div:nth-child(3) {
+    background: #528e98;
+}
+
+.custom_menu div div:nth-child(4) {
+    background: #5d9fa8;
+}
+
+.custom_menu div div:nth-child(5) {
+    background: #6cb5c0;
+}
+
+.custom_menu div div:nth-child(6) {
+    background: #7bc8d3;
+}
+
+.notebook{
+    background: linear-gradient(to right,#86d6b0, #5da297);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+    margin: 0 auto;
+}
+
+.laptop{
+    height: 400px;
+}
+
+.text_shoecase{
+    color: #ffffff;
+    font-size: 20px;
+    width: 40vw;
+}
+
+.text_shoecase h1{
+    font-size: 40px;
+}
+
+.project_complete{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.prosents{
+    background-color:#ffffff;
+    text-align: center;
+    color: #85d6b0;
+    width: 60vw;
+
+    font-size: 100px;
+}
+
+.prosents>h1{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 150px;
+}
+
+.streachIco{
+    background-color: #86d6b0;
+    width: 40vw;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer{
+    padding-top: 40px;
+    height: 70px;
+    background-color:#39646b
+}
+
+.copyright{
+    text-align: center;
+    font-size: 30px;
+    color:#979797;
+}
+
+.streachIco>img{
+    height: 250px;
+}
+
+@media (max-width: 1279px){
+    @media (min-width: 768px){
+        html {
+            margin: 0 -10px -10px -10px; 
+            padding: 0;
+            font-family: 'Abel';
+        }
+        
+        header {
+            display: flex;
+            width: 70vw;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+        
+        header>nav{
+            display: flex;
+            gap: 0.5vw;
+            align-items: center;
+            font-size: 20px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: rgb(61, 59, 59);
+        }
+        
+        .lined-right::after{
+            content: "|";
+        }
+        
+        .shoecase{
+            background: linear-gradient(to right,rgb(6, 56, 80) 20%, rgb(30, 172, 153));
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;      
+        }
+        
+        .iphone{
+            height: 400px;
+            padding: 0 40px;
+        }
+        
+        .buynow{
+            color:rgb(173, 179, 184);
+        }
+        
+        .buynowbutton{
+         display: flex;
+         flex-flow: row;
+        }
+        
+        .buynowleft{
+            background-color: #5d9c8d;
+            height: 55px;
+            width: 55px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;      
+        }
+        
+        .buynowright{
+            background-color: #87d2c2;
+            height: 55px;
+            width: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;  
+            font-size: 25px;
+        }
+        
+        .buynowright:hover{
+            background-color:rgb(30, 172, 153);
+        }
+        
+        .content{
+            margin: 0 auto;
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items:center;
+        }
+        
+        #aboutmin{
+            font-size: 40px;
+            margin-bottom: 0px;
+        }
+        
+        #Lorem{
+            margin-bottom: 40px;
+        }
+        
+        .about{
+            height: 650px;
+            background-color:azure;
+        }
+        
+        .about h1, .about h4{
+            text-align: center;
+        }
+        
+        .img_list{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items:center;
+            height: 200px;
+        }  
+
+        .custom_menu{
+            display: none;
+        }
+        
+        .custom_menu div div {
+            width: calc(100vw / 6);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .custom_menu div img{
+            margin: 0 auto;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .custom_menu div div:nth-child(1) {
+            background:#39646b;
+        }
+        
+        .custom_menu div div:nth-child(2) {
+            background: #467a83;
+        }
+        
+        .custom_menu div div:nth-child(3) {
+            background: #528e98;
+        }
+        
+        .custom_menu div div:nth-child(4) {
+            background: #5d9fa8;
+        }
+        
+        .custom_menu div div:nth-child(5) {
+            background: #6cb5c0;
+        }
+        
+        .custom_menu div div:nth-child(6) {
+            background: #7bc8d3;
+        }
+        
+        .notebook{
+            background: linear-gradient(to right,#86d6b0, #5da297);
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;  
+            margin: 0 auto;
+        }
+        
+        .laptop{
+            height: 400px;
+        }
+        
+        .text_shoecase{
+            color: #ffffff;
+            font-size: 20px;
+            width: 40vw;
+        }
+        
+        .text_shoecase h1{
+            font-size: 40px;
+        }
+        
+        .project_complete{
+            height: 450px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center; 
+        }
+        
+        .prosents{
+            background-color:#ffffff;
+            text-align: center;
+            color: #85d6b0;
+            width: 60vw;
+        
+            font-size: 80px;
+        }
+        
+        .prosents>h1{
+            margin: 0 auto;
+            padding: 0;
+            font-size: 120px;
+        }
+        
+        .streachIco{
+            background-color: #86d6b0;
+            width: 40vw;
+            margin: 0 auto;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        
+        .footer{
+            padding-top: 40px;
+            height: 70px;
+            background-color:#39646b
+        }
+        
+        .copyright{
+            text-align: center;
+            font-size: 30px;
+            color:#979797;
+        }
+        
+        .streachIco>img{
+            height: 250px;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    @media (min-width: 320px){
+        html {
+            margin: 0 -10px -10px -10px; 
+            padding: 0;
+            font-family: 'Abel';
+            min-width: 320px;
+            overflow-x: auto;
+        }
+        
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            gap: 1vw;
+            height: 100px;
+        }
+        
+        header>nav{
+            display: flex;
+            flex-direction: row;
+            gap: 1vw;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        
+        a{
+            text-decoration: none;
+            color: rgb(61, 59, 59);
+        }
+        
+        .lined-right::after{
+            content: "|";
+        }
+        
+        .shoecase{
+            background: linear-gradient(to right,rgb(6, 56, 80) 20%, rgb(30, 172, 153));
+            height: 500px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;      
+        }
+        
+        .iphone{
+            height: 400px;
+            position:absolute;
+            z-index: 0;
+        }
+        
+        .buynow{
+            color:rgb(173, 179, 184);
+            position:absolute;
+            z-index: 1;
+            width: 168px;
+            height: 270px;
+        }
+        
+        .buynowbutton{
+         display: flex;
+         flex-flow: row;
+        }
+        
+        .buynowleft{
+            background-color: #5d9c8d;
+            height: 55px;
+            width: 55px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;      
+        }
+        
+        .buynowright{
+            background-color: #87d2c2;
+            height: 55px;
+            width: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;  
+            font-size: 25px;
+        }
+        
+        .buynowright:hover{
+            background-color:rgb(30, 172, 153);
+        }
+        
+        .content{
+            width: 55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items:center;
+        }
+        
+        #aboutmin{
+            font-size: 40px;
+        }
+        
+        .appoftheyear{
+            height: 50vw;
+        }        
+        .about{
+            height: 600px;
+            background-color:azure;
+        }
+        
+        .about h1, .about h4{
+            text-align: center;
+        }
+
+        .custom_menu{
+            display: none;
+        }
+        
+        .img_list{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items:center;
+            height: 200px;
+        }  
+        
+        .custom_menu div div {
+            width: calc(100vw / 6);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .custom_menu div img{
+            margin: 0 auto;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .custom_menu div div:nth-child(1) {
+            background:#39646b;
+        }
+        
+        .custom_menu div div:nth-child(2) {
+            background: #467a83;
+        }
+        
+        .custom_menu div div:nth-child(3) {
+            background: #528e98;
+        }
+        
+        .custom_menu div div:nth-child(4) {
+            background: #5d9fa8;
+        }
+        
+        .custom_menu div div:nth-child(5) {
+            background: #6cb5c0;
+        }
+        
+        .custom_menu div div:nth-child(6) {
+            background: #7bc8d3;
+        }
+        
+        .notebook{
+            background: linear-gradient(to right,#86d6b0, #5da297);
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;  
+            margin: 0 auto;
+        }
+        
+        .laptop{
+            height: 400px;
+        }
+        
+        .text_shoecase{
+            color: #ffffff;
+            font-size: 20px;
+            width: 40vw;
+        }
+        
+        .text_shoecase h1{
+            font-size: 40px;
+        }
+        
+        .project_complete{
+            height: 450px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center; 
+        }
+        
+        .prosents{
+            background-color:#ffffff;
+            text-align: center;
+            color: #85d6b0;
+            width: 60vw;
+        
+            font-size: 50px;
+        }
+        
+        .prosents>h1{
+            margin: 0 auto;
+            padding: 0;
+            font-size: 100px;
+        }
+        
+        .streachIco{
+            background-color: #86d6b0;
+            width: 40vw;
+            margin: 0 auto;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        
+        .footer{
+            padding-top: 40px;
+            height: 50px;
+            background-color:#39646b
+        }
+        
+        .copyright{
+            text-align: center;
+            font-size: 30px;
+            color:#979797;
+        }
+        
+        .streachIco>img{
+            height: 15vh;
+        }
+    }
+}
